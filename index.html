@@ -14,6 +14,10 @@ h1   {
 p    {
  color: dodgerblue;
  font-family: "Lucida Console";
+}
+button    {
+ color: dodgerblue;
+ font-family: "Lucida Console";
 }</style>
 </head>
 <body>
@@ -21,8 +25,12 @@ p    {
 <h1>Shmorsh</h1>
 <p>The international language of stupid and sophistication.</p>
 <p>Made by sussiemaster and ThePTNT</p>
-<form action="learn/lesson_one.html">  
-   <input type="button">Go to lesson one!</input>  
-</form> 
+<button id="myButton" class="float-left submit-button" >Go to lesson one!</button>
+
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "www.shmorsh.github.com/learn/lessonone";
+    };
+</script>
 </body>
 </html> 
