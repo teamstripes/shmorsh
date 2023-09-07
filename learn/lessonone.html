@@ -1,36 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>shmorsh</title>
-<style>
-body {
- background-color: powderblue;
- font-family: "Lucida Console";
-}
-h1   {
- color: blue;
- font-family: "Lucida Console";
-}
-h2   {
- color: blue;
- font-family: "Lucida Console";
-}
-p    {
- color: dodgerblue;
- font-family: "Lucida Console";
-}
-button    {
- color: dodgerblue;
- background-color: lightcyan;
- font-family: "Lucida Console";
- border: 4px solid cadetblue;
- border-radius: 25px;
- cursor:pointer;
-}</style>
+<title>shmorsh - lesson one</title>
+<link rel='stylesheet' href='../style.css'>
 </head>
 <body>
 
 <h1>Shmorsh</h1>
+<button id="home" class="float-left submit-button" >Home</button>
 <h2>Lesson One: Important rules</h2>
 <p>There are three steps to making a word:</p>
 <p>1. Get the root word.</p>
@@ -49,9 +26,10 @@ button    {
 
 <script type="text/javascript">
     document.getElementById("btn2").onclick = function () {
-        var newUrl = 'https://shmorsh.github.io/learn/lessontwo';
-
-        window.location.href = newUrl;
+        location.href = "lessontwo.html";
+    };
+    document.getElementById("home").onclick = function () {
+        location.href = "../index.html";
     };
 </script>
 </body>

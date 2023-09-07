@@ -1,37 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>shmorsh</title>
-<style>
-body {
- background-color: powderblue;
- font-family: "Lucida Console";
-}
-h1   {
- color: blue;
- font-family: "Lucida Console";
-}
-h2   {
- color: blue;
- font-family: "Lucida Console";
-}
-p    {
- color: dodgerblue;
- font-family: "Lucida Console";
-}
-button    {
- color: dodgerblue;
- background-color: lightcyan;
- font-family: "Lucida Console";
- border: 4px solid cadetblue;
- border-radius: 25px;
- cursor:pointer;
-}</style>
+<title>shmorsh - lesson two</title>
+<link rel='stylesheet' href='../style.css'>
 </head>
 <body>
 
 <h1>Shmorsh</h1>
-<h2>Lesson Two: Your first words!</h2>
+<button id="home" class="float-left submit-button" >Home</button>
+<button id="back" class="float-left submit-button" >Back to Lesson One</button>
+<h2>Lesson Two: Your first roots!</h2>
 <p>Let's learn your first 27 words/modifiers in Shmorsh!</p>
 <p>All of these words each correspond to one letter of the alphabet.</p>
 <p>a = Life (Noun), Live (Verb), Alive (Adj) Lively (Adv)</p>
@@ -65,5 +43,14 @@ button    {
 <p>And word number 27 is our first MODIFIER (Prefixes/Suffixes).</p>
 <p>an = Opposite of, goes BEFORE words. For example. tege = light, antege = dark.</p>
 <p>Lesson 3 coming soon!</p>
+
+<script type="text/javascript">
+    document.getElementById("back").onclick = function () {
+        location.href = "lessonone.html";
+    };
+    document.getElementById("home").onclick = function () {
+        location.href = "../index.html";
+    };
+</script>
 </body>
 </html> 
