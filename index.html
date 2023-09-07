@@ -1,41 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>shmorsh</title>
-<style>
-body {
- background-color: powderblue;
- font-family: "Lucida Console";
-}
-h1   {
- color: blue;
- font-family: "Lucida Console";
-}
-p    {
- color: dodgerblue;
- font-family: "Lucida Console";
-}
-button    {
- color: dodgerblue;
- background-color: lightcyan;
- font-family: "Lucida Console";
- border: 4px solid cadetblue;
- border-radius: 25px;
- cursor:pointer;
-}</style>
+<title>shmorsh - home</title>
+<link rel='stylesheet' href='style.css'>
 </head>
 <body>
 
 <h1>Shmorsh</h1>
 <p>The international language of stupid and sophistication.</p>
-<p>Made by sussiemaster, ThePTNT, Hank the Tank, and Bad (1-80).</p>
+<p>Made by <a href="https://github.com/sussiemaster">sussiemaster</a>, <a href="https://github.com/ThePTNT">ThePTNT</a>, <a href="https://github.com/hankythetanky99">Hank the Tank</a>, and <a href="https://github.com/1-80">1-80</a>.</p>
 <button id="btn1" class="float-left submit-button" >Go to lesson one!</button>
+<button id="btn2" class="float-left submit-button" >Official Dictionary</button>
+
 
 <script type="text/javascript">
     document.getElementById("btn1").onclick = function () {
-        var newUrl = 'https://shmorsh.github.io/learn/lessonone';
-
-        window.location.href = newUrl;
+        location.href = "learn/lessonone.html";
+    };
+    document.getElementById("btn2").onclick = function () {
+        location.href = "dictionary.html";
     };
 </script>
 </body>
