@@ -1,24 +1,24 @@
 body{
     background-color: powderblue;
-    font-family: "Lucida Console";
+    font-family: "Consolas";
 }
 h1{
     color: blue;
-    font-family: "Lucida Console";
+    font-family: "Consolas";
 }
 h2{
     color: blue;
-    font-family: "Lucida Console";
+    font-family: "Consolas";
 }
 p{
     color: dodgerblue;
-    font-family: "Lucida Console";
+    font-family: "Consolas";
 }
 button{
     color: dodgerblue;
     background-color: lightcyan;
-    font-family: "Lucida Console";
+    font-family: "Consolas";
     border: 4px solid cadetblue;
-    border-radius: 25px;
+    border-radius: 50px;
     cursor:pointer;
 }
